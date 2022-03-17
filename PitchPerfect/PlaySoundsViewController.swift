@@ -69,5 +69,4 @@ class PlaySoundsViewController: UIViewController {
         configureUI(.notPlaying)
     }
 
-
 }

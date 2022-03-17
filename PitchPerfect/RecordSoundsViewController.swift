@@ -29,7 +29,7 @@ class RecordSoundsViewController: UIViewController , AVAudioRecorderDelegate{
     
     
     @IBAction func onRecord(_ sender: Any) {
-        print("onRecord())")
+        print("onRecord()")
         
         configuringUI(true)
         let dirPath = NSSearchPathForDirectoriesInDomains(.documentDirectory,.userDomainMask, true)[0] as String
@@ -87,14 +87,6 @@ class RecordSoundsViewController: UIViewController , AVAudioRecorderDelegate{
         }
     }
     
-    private func setEnableUI(_ view: UIControl, _ enabled:Bool){
-        view.isEnabled = enabled
-        if enabled {
-            view.alpha = 1.0
-        } else {
-            view.alpha = 0.5
-        }
-    }
 }
 
 
