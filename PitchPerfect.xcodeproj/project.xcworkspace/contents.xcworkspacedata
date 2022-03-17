@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/eyvind/Documents/onedayofcode/ios/Test2/PitchPerfect.xcodeproj">
+      location = "self:PitchPerfect.xcodeproj">
    </FileRef>
 </Workspace>
