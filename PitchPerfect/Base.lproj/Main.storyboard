@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WCL-UY-VlM">
-                                <rect key="frame" x="117.5" y="390.5" width="179" height="169"/>
+                                <rect key="frame" x="117.5" y="306" width="179" height="169"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="" image="RecordButton"/>
                                 <buttonConfiguration key="configuration" style="plain" image="RecordButton" title=""/>
@@ -26,13 +26,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to record" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g6p-2Z-Pup">
-                                <rect key="frame" x="156.5" y="567" width="101" height="21"/>
+                                <rect key="frame" x="156.5" y="482.5" width="101" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3dd-W8-DuH">
-                                <rect key="frame" x="175" y="596" width="64" height="64"/>
+                                <rect key="frame" x="175" y="511.5" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="NzC-IZ-xvH"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="64" id="nQo-fE-Ccd"/>
@@ -53,7 +53,7 @@
                             <constraint firstItem="g6p-2Z-Pup" firstAttribute="centerX" secondItem="WCL-UY-VlM" secondAttribute="centerX" id="Cv2-Lm-Vs8"/>
                             <constraint firstItem="WCL-UY-VlM" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="LYb-3G-L2L"/>
                             <constraint firstItem="g6p-2Z-Pup" firstAttribute="top" secondItem="WCL-UY-VlM" secondAttribute="bottom" constant="7.5" id="R8T-d5-jx5"/>
-                            <constraint firstItem="WCL-UY-VlM" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="S9x-sj-PHS"/>
+                            <constraint firstItem="WCL-UY-VlM" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="S9x-sj-PHS"/>
                             <constraint firstItem="3dd-W8-DuH" firstAttribute="centerX" secondItem="g6p-2Z-Pup" secondAttribute="centerX" id="hS2-h3-WOp"/>
                         </constraints>
                     </view>
